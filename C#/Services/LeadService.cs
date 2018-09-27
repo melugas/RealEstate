@@ -60,7 +60,6 @@ namespace Services //namespace removed
                         ActivityTypeId = (int)reader["ActivityTypeId"],
                         StatusId = (int)reader["StatusId"],
                         UserId = (int)reader["UserId"],
-                       // Notes = reader.GetSafeString("Notes"),
                         DateCreated = (DateTime)reader["DateCreated"]
 
                     };
